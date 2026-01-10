@@ -52,7 +52,7 @@ public class Network {
         if ( getUser(name) != null){
             return false;
         }
-        User newuser = new User(name);
+        users [userCount] = new User(name);
         int count =0;
         userCount ++;
 
