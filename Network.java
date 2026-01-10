@@ -67,6 +67,9 @@ public class Network {
         if ( getUser(name1) ==null){
             return false;
         }
+        if (name1.equals(name2)) {
+            return  false;
+        }
         if ( getUser(name2) == null){
             return false;
         }
